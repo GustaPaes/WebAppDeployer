@@ -8,7 +8,7 @@ namespace WebAppDeployer
         private static bool _interactiveMode;
         public static void Process(string[] args)
         {
-            if (args == null || args.Length < 2)
+            if (args == null)
             {
                 ShowHelp();
                 _interactiveMode = true;
